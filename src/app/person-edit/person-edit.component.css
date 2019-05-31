@@ -1,0 +1,76 @@
+#card{ 
+    border: 3px solid black; 
+    border-collapse: collapse;
+    table-layout: fixed; 
+    background-color: beige; 
+}
+
+thead{  
+background-color: aliceblue;
+
+}
+td{
+    width: 2000px; 
+    height: 200px; 
+    text-align: center;
+}
+#title{
+    color: darkblue;
+}
+#name{
+text-align: center;
+font-weight: bold;
+
+}
+#username{
+    text-align: center;
+    font-weight: bold;
+}
+#email{
+    text-align: center;
+    font-weight: bold;
+}
+#phone{
+    text-align: center;
+    font-weight: bold;
+}
+#website{
+    text-align: center;
+    font-weight: bold;
+}
+#suite{
+    text-align: center;
+    font-weight: bold;
+}
+#street{
+    text-align: center;
+    font-weight: bold;
+}
+#city{
+    text-align: center;
+    font-weight: bold;
+}
+#zipcode{
+    text-align: center;
+    font-weight: bold;
+}
+#lat{
+    text-align: center;
+    font-weight: bold;
+}
+#lng{
+    text-align: center;
+    font-weight: bold;
+}
+#companyname{
+    text-align: center;
+    font-weight: bold;
+}
+#catchphrase{
+    text-align: center;
+    font-weight: bold;
+}
+#bs{
+    text-align: center;
+    font-weight: bold;
+}

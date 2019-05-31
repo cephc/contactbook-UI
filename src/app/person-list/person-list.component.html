@@ -1,0 +1,48 @@
+<table width="100%" >
+    <thead id="thead">
+      <th>Name</th>
+
+      <th>Username</th>
+
+      <th>Email</th>
+
+      <th>Address</th>
+
+      <th>Phone</th>
+
+     <th>Website</th> 
+
+      <th>Company</th>
+    </thead>
+    <tr *ngFor = "let person of people">
+   <td > <a mat-raised-button color ="primary" [routerLink]= "['/person-edit', person.id]">{{ person.name }}</a><br> </td>
+   
+  <td id="username">{{ person.username }}</td>
+  
+    <td style="font-size: 12px">{{ person.email }}</td>
+    
+    <td id="address">
+      <strong>Suite:</strong>{{ person.address.suite}}<br><br>
+      <strong>Street:</strong>{{ person.address.street }}<br><br>
+      <strong>City:</strong>{{ person.address.city }}<br><br>
+      <strong>ZipCode:</strong>{{ person.address.zipcode }}<br><br>
+      <strong>Lat:</strong> {{ person.address.geo.lat}}<br><br>
+      <strong>Long:</strong>{{ person.address.geo.lng }}
+    </td>
+  
+    <td> {{ person.phone }}</td>
+    
+    <td> {{person.website }}</td>
+
+    <td style= "font-size: 14px">
+      <strong>Name:</strong>{{ person.company.name }}<br><br>
+      <strong>Catchphrase:</strong><i>{{ person.company.catchPhrase }}</i><br><br>
+      <strong>Service:</strong><i>{{ person.company.bs }}</i>
+    </td>
+
+
+  </tr>
+</table>
+<br>
+<button mat-fab color="primary" [routerLink]="['/person-add']"> Add </button>
+  

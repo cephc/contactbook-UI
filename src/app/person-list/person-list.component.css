@@ -1,0 +1,19 @@
+table,td{ 
+    border: 3px solid black; 
+    border-collapse: collapse;
+    table-layout: fixed; 
+    background-color: beige; 
+}
+#address{
+    text-align: 
+}
+
+thead{  
+background-color: aliceblue;
+
+}
+td{
+    width: 2000px; 
+    height: 200px; 
+    text-align: center;
+}
